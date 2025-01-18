@@ -21,26 +21,33 @@ const stat3 = document.querySelector('#sleepiness-stat')
 
 // console.log(gameMessage)
 /*-------------------------------- Functions --------------------------------*/
-function init(){
-  timer.setInterval(runGame(), 2000);
-};
-function runGame(){}
-// console.log('the game is running!', runGame)
+const runGame = ('the game is running!')
+console.log(runGame)
+  for (let number = 0; number < 11; number++) {
+    stat1.textContent = number
+    console.log(number)
+  }
+// function init(){
+// let runGame = setInterval(runGame, 2000);
 
-function render(){
-  stat1.textContent = state.boredom
-  stat2.textContent = state.hunger
-  stat3.textContent = state.sleepiness
-  if 
-}
+// };
+// function runGame(){}
+// // console.log('the game is running!', runGame)
 
-function updateStates(){
-  Math.random(0, 3)
-}
-function checkGameOver(){
-  if (state === 10 > 10)
-  return gameOver === true
-}
+// function render(){
+//   stat1.textContent = state.boredom
+//   stat2.textContent = state.hunger
+//   stat3.textContent = state.sleepiness
+//   if 
+// }
+
+// function updateStates(){
+//   Math.random(0, 3)
+// }
+// function checkGameOver(){
+//   if (state === 10 > 10)
+//   return gameOver === true
+// }
 /*----------------------------- Event Listeners -----------------------------*/
 // playerChoice.addEventListener = ('click' , interactiveChoice)
 
@@ -110,9 +117,3 @@ function checkGameOver(){
   
   // gameOver = false
   
-  // const runGame = ('the game is running!')
-  // console.log(runGame)
-    // for (let number = 0; number < 11; number++) {
-    //   stat1.textContent = number
-    //   console.log(number)
-    // }
